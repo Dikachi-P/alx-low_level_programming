@@ -1,4 +1,3 @@
-#!/bin/bash
 
 #include<stdio.h>
 /**
@@ -9,15 +8,15 @@
  * Return - always 0
  */
 int main(void) {
-	int integerType;
-	float floatType;
-	double doubletype;
-	char chartype;
+	char(charType);
+	int(intType);
+	float(floatType);
+	double(doubleType);
 	
-	printf("Size of int: %ld byte\n",sizeof(integerType));
-	printf("Size of float: %ld byte\n",sizeof(floatType));
-	printf("Size of double: %ld byte\n",sizeof(doubleType));
-	printf("Size of char: %ld byte\n",sizeof(charType));
+	printf("Size of char: %ld byte(s)\n",sizeof(charType));
+	printf("Size of int: %ld byte(s)\n",sizeof(intType));
+	printf("Size of float: %ld byte(s)\n",sizeof(floatType));
+	printf("Size of double: %ld byte(s)\n",sizeof(doubleType));
 
 	return(0);
 }
