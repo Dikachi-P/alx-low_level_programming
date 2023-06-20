@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #include<stdio.h>
+
 /**
  * main - Entry point
  *
@@ -9,8 +10,6 @@
 
 
 int main(void) {
-	puts("programming is like buiding a multilingual puzzle\n");
-
-
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 	return(0);
 }
